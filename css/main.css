@@ -1,6 +1,20 @@
 body {
-    height: 100vh;
     background-color: #111;
+    color: #ddd;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.warning {
+    width: 95%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
